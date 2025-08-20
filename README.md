@@ -76,6 +76,21 @@ npx playwright show-report
 
 ---
 
+## NPM scripts (package.json)
+
+```json
+{
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "codegen": "playwright codegen https://www.amazon.com"
+  }
+}
+```
+
+---
+
 ## Project layout (minimal)
 
 ```
